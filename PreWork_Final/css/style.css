@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  color: chocolate;
+  font-family: 'Montserrat', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight: 400;
+}
+
+nav {
+  background-color: rgba(210, 105, 30, 0.185);
+  padding-top: 1.2%;
+  padding-bottom: 1.2%;
+  margin: auto;
+  width: 82%;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  border-radius: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  font-size: 1em;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  padding-top: 2%;
+  background-color: white;
+  z-index: 1;
+}
+
+main {
+  position: relative;
+  padding-top: 15%;
+  width: 80%;
+  margin: auto;
+}
+
+table {
+  display: flexbox;
+  border-collapse: collapse;
+  width: 80%;
+  margin: auto;
+}
+
+th {
+  font-weight: 500;
+}
+
+td, th {
+  border: 1.75px dotted rgb(146, 71, 24);
+  text-align: center;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: rgba(210, 105, 30, 0.13);
+}
+
+form {
+  text-align: center;
+}
+
+input[type="text"]:hover {
+  background-color: rgba(210, 105, 30, 0.116);
+}
+
+p {
+  padding-bottom: 1%;
+}
+
+button {
+  margin-top: 1%;
+  padding: 1%;
+  font-weight: 500;
+  font-family: 'Montserrat', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: rgb(146, 71, 24);
+  background-color: white;
+  border-color: rgb(146, 71, 24);
+  border-radius: 20px
+}
+
+button:hover {
+  background-color: rgb(146, 71, 24);
+  color: white;
+  cursor: pointer;
+}
+
+a {
+  color: rgb(146, 71, 24);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+h2 {
+  color: rgb(146, 71, 24);
+  font-weight: semi-bold;
+  font-weight: 700;
+  font-size: 1.375em;
+  padding-bottom: 1%;
+  padding-top: 1%;
+}
+
+h3 {
+  padding-bottom: 1%;
+  font-weight: 500;
+}
+
+ol {
+  font-style: oblique;
+  list-style-type: "🔅 ";
+  padding-left: 5%;
+}
+
+img {
+  border-color: rgb(155, 88, 41);
+  max-width: 65%;
+  display: block;
+  margin: auto;
+  margin-top: 2%;
+  margin-bottom: 0;
+  border: dotted;
+}
+
+a#my-name {
+  text-decoration: none;
+  font-style: italic;
+  font-weight: 900;
+  font-size: 1.5em;
+  color: rgb(146, 71, 24);
+}
+
+a#my-name:hover {
+  text-shadow: 1.25px 1.25px rgba(210, 105, 30, 0.52);
+  cursor: pointer;
+}
+
+#blurb {
+  font-weight: 700;
+  text-align: center;
+  color: rgb(146, 71, 24);
+  padding-bottom: 2%;
+}
+
+#intro {
+  margin: auto;
+  width: 55%;
+  text-align: center;
+}
+
+.top {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 500;
+  border-style: dashed;
+  border-color: rgb(146, 71, 24);
+  border-radius: 50%;
+  width: 6%;
+  padding: 1%;
+  margin: auto;
+  background-color: rgba(210, 105, 30, 0.185);
+}
+
+.top:hover {
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.parentheses {
+  font-size: 1em;
+  font-weight: 200;
+}
+
+.bullet-pt {
+  color: rgb(146, 71, 24);
+}
