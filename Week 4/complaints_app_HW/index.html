@@ -1,0 +1,69 @@
+<!--  
+tasks:
+
+- Want to search through the 311 call data provided by the NYC Open Data API 
+- display all the complaints made to the NYPD, filtered by borough. 
+- see how the police responded to the complaint
+-five buttons for the five boroughs onload.
+-an input box a number of how many complaints they want to see
+-onclick of one of the five buttons, a list of complaints according to the number they input AND the borough they clicked on
+-no input default results 10
+-for each complaint create "toggle police response" button
+-onclick, show police response in a paragraph below
+
+------------------------------
+key value pairs being used:
+
+- borough
+- descriptor (which says what kind of complaint was made)
+- agency: "NYPD" (because we only want complaints that were handled by the police department)
+- resolution_description (which says how the police handled the complaint) 
+
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promises Homework (M1W4 - HW2)</title>
+    <script src="app.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <img src="donut_rat.png" alt="donut and rat pic" id="donut-rat-pic">
+    <h1 id="page-heading">Where Can We Cause Trouble Today?</h1>
+    <input type="text" id="complaint-amount" value="">
+    <button id="Brooklyn" onclick="complaintsList('BROOKLYN',complaintAmt())">Brooklyn</button>
+    <button id="Bronx" onclick="complaintsList('BRONX',complaintAmt())">Bronx</button>
+    <button id="Manhattan" onclick="complaintsList('MANHATTAN', complaintAmt())">Manhattan</button>
+    <button id="Queens" onclick="complaintsList('QUEENS',complaintAmt())">Queens</button>
+    <button id="Staten" onclick="complaintsList('STATEN ISLAND',complaintAmt())">Staten Island</button>
+    <h2 id="borough-heading"></h2>
+    <ul>
+        <li class="complaints"></li>
+        <li class="complaints"></li>
+        <li class="complaints"></li>
+        <li class="complaints"></li>
+        <li class="complaints"></li>
+        <li class="complaints"></li>
+        <li class="complaints"></li>
+        <li class="complaints"></li>
+        <li class="complaints"></li>
+        <li class="complaints"></li>
+    </ul>
+
+    <!--onclick return showDetails function-->
+    <!--^^^^^ shows up by default 10 times, unless the user enters a complaints number amount-->
+    <!-- </ul> -->
+
+    <!-- <script src="app.js"> -->
+
+    </script>
+
+</body>
+
+</html>

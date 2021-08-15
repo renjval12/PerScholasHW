@@ -1,0 +1,18 @@
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+.complaints {
+    list-style-type: none;
+    visibility: visible;
+}
+
+#donut-rat-pic {
+    max-width: 500px;
+    margin: auto;
+    display: block;
+}
+
+#page-heading{
+    text-align: center;
+}
