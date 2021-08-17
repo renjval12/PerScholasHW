@@ -4,7 +4,6 @@ body {
 
 .complaints {
     list-style-type: none;
-    visibility: visible;
 }
 
 #donut-rat-pic {
@@ -16,3 +15,20 @@ body {
 #page-heading{
     text-align: center;
 }
+
+#brooklyn:focus{
+    background-color: rgb(255, 105, 105);
+}
+#bronx:focus{
+    background-color: rgb(109, 109, 255);
+}
+#manhattan:focus{
+    background-color: rgb(67, 135, 67);
+}
+#queens:focus{
+    background-color: rgb(255, 255, 115);
+}
+#staten:focus{
+    background-color: rgb(255, 195, 85);
+}
+
