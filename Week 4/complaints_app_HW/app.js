@@ -12,6 +12,7 @@ function changeToComplaints(data) {
     let list = document.getElementById('complaints')
     list.innerHTML = ''
     for (i = 0; i < data.length; i++) {
-        list.innerHTML += `<li>${data[i].descriptor} <button onclick="document.getElementById(complaint-${i})${data[i].resolution_description}">toggle police response</button> <span id="complaint-${i}></span></li>`
+        list.innerHTML += '<li>' + data[i].descriptor + `<button class="police-response-btn"onmouseover="document.getElementById('complaint-${i}').innerHTML = '${data[i].resolution_description}'" onmouseout="document.getElementById('complaint-${i}').innerHTML = ''">toggle police response</button></li>` + `<p id="complaint-${i}"></p>`
     }
 }
+
