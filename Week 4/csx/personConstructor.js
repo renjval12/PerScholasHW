@@ -4,4 +4,4 @@ function PersonConstructor(){
 
 const simon = new PersonConstructor()
 
-simon.greet
+simon.greet()
