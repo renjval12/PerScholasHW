@@ -15,10 +15,25 @@
 #top-content {
   grid-area: 1/2/2/4;
   display: flex;
-  gap: 5%;
-  justify-content: space-evenly;
+  justify-content: center;
   border: 1px solid black;
+}
+
+#top-comp-1, #top-comp-2, #top-comp-3 {
+  border: 1px solid black;
+  width: 100%;
+}
+
+#top-comp-1 {
   background-color: rgb(218, 188, 245);
+}
+
+#top-comp-2 {
+  background-color: rgb(183, 108, 249);
+}
+
+#top-comp-3 {
+  background-color: rgb(148, 47, 237);
 }
 
 #side-bar {

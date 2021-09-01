@@ -1,4 +1,3 @@
-
 export default function NavSideBar() {
     return (
         <div id="side-bar">
