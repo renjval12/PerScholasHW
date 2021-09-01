@@ -1,1 +1,3 @@
-Homework for the 
+# React Static Components HW
+
+
