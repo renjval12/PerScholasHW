@@ -10,6 +10,7 @@ body {
 
 .student {
   padding: 10%;
+  border: 10px solid rgb(17, 89, 165);
 }
 
 p {
