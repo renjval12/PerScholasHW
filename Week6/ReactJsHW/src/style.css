@@ -1,0 +1,21 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Tahoma, sans-serif;
+}
+
+body {
+  background-color: rgb(124, 187, 255);
+}
+
+.student {
+  padding: 10%;
+}
+
+p {
+  padding: 10% 0;
+}
+
+.score {
+  padding: 0 0
+}
