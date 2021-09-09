@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Score from "./Score";
+import Student from "./Students";
 
 export default function App() {
   const [students] = useState(
@@ -66,19 +66,8 @@ export default function App() {
     ]
   )
   return (
-    students.map((studentObj, index) => {
-      return (
-        <div class="student" id={"student-" + index} key={index}>
-          
-          <h1>{studentObj.name}</h1>
-          <p>{studentObj.bio}</p>
-          <h2>Scores</h2>
-          <ul>
-            <Score object={studentObj} />
-          </ul>
-        </div>)
-    }
-    )
+    <Student studentData={students} />
   )
 
 }
+
