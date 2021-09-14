@@ -1,4 +1,7 @@
-# React Static Components HW
+# React HW Projects
+
+A list of completed projects created to fulfill React homework requirements in Per Scholas.
+
 <ul>
 <li>Week 5 HW - <a href="https://github.com/renjval12/SE-Homework/tree/main/ReactHW/src/StaticComponents">Dashboard/Static Components</a></li>
 <li>Week 6 HW - <a href="https://github.com/renjval12/SE-Homework/tree/main/ReactHW/src/StateHW">T.A.R.D.I.S./State</a></li>
