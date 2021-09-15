@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#floor-plan {
+  height: 100vh;
+}
+div {
+  padding: 10px 5px;
+}
+
+h1 {
+  text-align: center;
+  background-color: orange;
+}
+
+#floor-plan {
+  display: grid;
+  grid-template: repeat(5, 1fr)/repeat(8, 1fr);
+}
+
+#kitchen {
+  display: grid;
+  grid-template: repeat(2, 1fr)/repeat(2/1fr);
+  background-color: rgb(58, 179, 179);
+  padding: 0%;
+  grid-area: 1/1/4/3;
+}
+#kitchen-section {
+  padding-bottom: 100%;
+}
+
+#oven {
+  background-color: rgb(37, 152, 37);
+  grid-area: 2/1/3/2;
+}
+
+#sink {
+  background-color: rgb(244, 123, 143);
+  grid-area: 2/2/3/3;
+}
+#living-room {
+  grid-area: 1/3/4/7;
+  background-color: gold;
+}
+.bedroom {
+  background-color: cornflowerblue;
+}
+.bath {
+  background-color: darkseagreen;
+}
+#full-bath {
+  grid-area: 3/7/6/9;
+}
+#bedroom-1 {
+  grid-area: 4/3/6/5;
+}
+#bedroom-2 {
+  grid-area: 4/5/6/7;
+}
+#bedroom-3 {
+  grid-area: 1/7/3/9;
+}
+#half-bath {
+  grid-area: 4/1/6/3;
+}

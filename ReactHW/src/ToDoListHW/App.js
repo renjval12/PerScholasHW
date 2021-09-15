@@ -2,7 +2,6 @@ import React, { useState, useRef, useEffect } from "react";
 
 export default function App() {
   const [todo, setTodo] = useState([
-
     {
       listItem: 'Pick up dry cleaning',
       completed: false
