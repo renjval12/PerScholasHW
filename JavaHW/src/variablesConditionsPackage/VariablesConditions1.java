@@ -1,4 +1,4 @@
-package variables_conditions_package;
+package variablesConditionsPackage;
 
 public class VariablesConditions1 {
 	public static void main(String[] args) {
