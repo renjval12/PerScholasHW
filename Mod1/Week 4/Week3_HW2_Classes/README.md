@@ -1,6 +1,6 @@
-## OOP Classes
+# OOP Classes
 
-### Instructions
+## Instructions
 1. Define a new class called Circle with appropriate attributes and instantiate a few Circle objects.
     - Write a function called circle_area that returns the area of the object. 
     - Write a function total_sides that returns the number of sides of the object.
