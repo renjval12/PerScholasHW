@@ -36,14 +36,12 @@ public class Calculator {
 			case 4:
 				System.out.println(num2 + " / " + num3 + " = " + divide(num2, num3));
 				break;
-			case 5:
-				break;
 			default:
-				System.out.println("Invalid Entry");
+				System.out.println("Invalid Entry, Try Again"); //message if the user enters a character
 				break;
 			}
 		} else {
-			System.out.println("invalid entry");
+			System.out.println("Invalid Entry, Try Again");
 		}
 		scan.close(); // closes input stream
 	}
