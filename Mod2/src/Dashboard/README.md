@@ -1,6 +1,6 @@
 
 
-# React Static Components
+# Dashboard / Static Components
 
 ## Instructions
 <strong>Dashboard Wireframe: </strong>
