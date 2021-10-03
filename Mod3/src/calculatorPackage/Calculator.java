@@ -16,7 +16,7 @@ public class Calculator {
 		int num1 = scan.nextInt();
 
 		if (num1 == 5) {
-			System.out.println("see ya later, gator");
+			System.out.println("See ya later, gator");
 		} else if (num1 == 1 || num1 == 2 || num1 == 3 || num1 == 4) {
 			System.out.println("Type first number: "); // prompt to the user to enter a number
 			int num2 = scan.nextInt(); // variable holds the user input number
