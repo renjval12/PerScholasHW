@@ -6,9 +6,9 @@ public class Q3 {
 
 	public static void main(String[] args) {
 		Scanner scan = new Scanner(System.in); // opens input stream for user input
-		System.out.println("Type in a word: "); // prompt to the user to enter a number
-		String palText = scan.next(); // variable holds the user input number
-		palindrome(palText.toUpperCase()); // run armstrong(n) function
+		System.out.println("Type in a word: "); // prompt to the user to enter a text
+		String palText = scan.next(); // variable holds the user input text
+		palindrome(palText.toUpperCase()); // run palindrome(n) function
 		scan.close(); // closes input stream
 	}
 
