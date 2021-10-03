@@ -2,7 +2,7 @@
 
 ## Instructions
 <strong>Dashboard Wireframe: </strong>
-<img src="./wireframe.jpg"/>
+<img src="./wireframe.png"/>
 
 - Try to recreate this wireframe with React. Be sure to create a few functional components (e.g. app, sidebar, etc).
 - Reuse components where necessary (For example: Reviews, AverageRating, and Sentiment Analysis could be one component accepting different props).    
