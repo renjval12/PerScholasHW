@@ -1,5 +1,5 @@
 
-## Dougie the Donut & Pizza Rat 🍩 🐀 (Complaint App)
+# Dougie the Donut & Pizza Rat 🍩 🐀 (Complaint App)
 
 ### Instructions
 - Create a directory named complaints_app
@@ -34,7 +34,7 @@ Below is a more detailed list of what functionalities Dougie and Pizza Rat want 
 - When the user clicks on on the "toggle police response" button, it should then toggle how the police responded to that particular complaint
 - Make sure it only toggles the response for that one complaint, not the entire list!
 
-Example of a working app
+<strong>Example of a working app</strong>
 
 <img src="./example.gif"/>
 
