@@ -13,21 +13,13 @@ public class Q3 {
 	}
 
 	public static void palindrome(String n) {
-//		System.out.println("Palindrome text: " + n);
-		String[] strArr = n.split("");
-		for (int i = 0; i < strArr.length; i++) {
-			System.out.print("i pos: " + i + " ");
-			System.out.println();
-//			System.out.print("i val: " + strArr[i] + " ");
-//			System.out.println();
-			
-			for (int j = strArr.length - 1; j >= i; j--) {
-				System.out.print("j pos: " + j + " ");
-				System.out.println();
-//				System.out.print("j val: " + strArr[j] + " ");
-//				System.out.println();
-			}
+		StringBuffer reverseStr = new StringBuffer(n);
+		reverseStr.reverse();
+		String reverseStringify = reverseStr.toString();
+		if (n.equals(reverseStringify)) {
+			System.out.println(n + " is a Palindrome");
+		} else {
+			System.out.println(n + " is NOT a Palindrome");
 		}
-
 	}
 }
