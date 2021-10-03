@@ -13,10 +13,10 @@ public class Q3 {
 	}
 
 	public static void palindrome(String n) {
-		StringBuffer reverseStr = new StringBuffer(n);
+		StringBuffer reverseStr = new StringBuffer(n.toLowerCase());
 		reverseStr.reverse();
 		String reverseStringify = reverseStr.toString();
-		if (n.equals(reverseStringify)) {
+		if (n.toLowerCase().equals(reverseStringify)) {
 			System.out.println(n + " is a Palindrome");
 		} else {
 			System.out.println(n + " is NOT a Palindrome");
