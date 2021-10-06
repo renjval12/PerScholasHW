@@ -8,7 +8,7 @@ public class Q3 {
 		Scanner scan = new Scanner(System.in); // opens input stream for user input
 		System.out.println("Type in a word: "); // prompt to the user to enter a text
 		String palText = scan.next(); // variable holds the user input text
-		palindrome(palText.toUpperCase()); // run palindrome(n) function
+		palindrome(palText); // run palindrome(n) function
 		scan.close(); // closes input stream
 	}
 
@@ -16,7 +16,7 @@ public class Q3 {
 		StringBuffer reverseStr = new StringBuffer(n);
 		reverseStr.reverse();
 		String reverseStringify = reverseStr.toString();
-		if (n.equals(reverseStringify)) {
+		if (n.equalsIgnoreCase(reverseStringify)) {
 			System.out.println(n + " is a Palindrome");
 		} else {
 			System.out.println(n + " is NOT a Palindrome");
