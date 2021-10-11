@@ -2,8 +2,6 @@ package oopConceptsPackage;
 
 import java.util.*;
 
-import gettersSettersPackage.Computer;
-
 public class Render {
 
 	public static void main(String[] args) {

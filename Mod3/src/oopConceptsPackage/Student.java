@@ -27,7 +27,7 @@ public class Student extends Person {
 		System.out.println("Name: " + this.name);
 		System.out.println("Gender: " + this.gender);
 		System.out.println("Age: " + this.age);
-		System.out.println("Occupation: " + this.year);
+		System.out.println("School Year: " + this.year);
 		System.out.println("School Average Grade: " + calculateAverage());
 		System.out.println("=====================");
 		System.out.println();

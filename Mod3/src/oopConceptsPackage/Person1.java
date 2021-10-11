@@ -28,7 +28,7 @@ public class Person1 {
 	public void setAge(int age) {
 		this.age = age;
 	}
-	
+
 	void display() {
 		System.out.println("=======================================");
 		System.out.println("Person1 Class info");
@@ -38,6 +38,5 @@ public class Person1 {
 		System.out.println("Age: " + this.age);
 		System.out.println("=======================================");
 		System.out.println();
-
 	}
 }
