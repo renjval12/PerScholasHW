@@ -2,11 +2,11 @@
 
 Create an application using Object Oriented Concepts. Application must incorporate the following OOP concepts:
 
-1.Inheritance (Classes, Objects, Instance variables and methods, etc)
+1. Inheritance (Classes, Objects, Instance variables and methods, etc)
 
-2.Encapsulation (Data Hiding)
+2. Encapsulation (Data Hiding)
 
-3.Polymorphism (Interface, method overloading and method overriding)
+3. Polymorphism (Interface, method overloading and method overriding)
 
 4. Abstraction (Interface abstract methods)
 
